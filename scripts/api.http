@@ -1,0 +1,34 @@
+### GET request to example server
+GET localhost:8080
+
+<> 2024-07-01T103647.200.json
+<> 2024-07-01T103646.200.json
+<> 2024-07-01T103643.200.json
+<> 2024-07-01T103639.200.json
+<> 2024-07-01T095954.200.json
+<> 2024-07-01T095953.200.json
+<> 2024-07-01T095950.200.json
+
+###
+
+
+POST localhost:8080/products
+Accept: application/json
+
+{
+  "name": "iPhone 15",
+  "description": "Fancy phone",
+  "price": 599.00
+}
+
+###
+PATCH localhost:8080/products/e7fd161d-fb50-43fe-98c3-96e4b3b3329d
+Accept: application/json
+
+{
+  "description": "Updated description for iPhone 15"
+}
+
+
+###
+GET localhost:8080/products/e7fd161d-fb50-43fe-98c3-96e4b3b3329d
