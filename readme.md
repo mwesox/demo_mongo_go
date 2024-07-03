@@ -63,4 +63,3 @@ Example:
 GET localhost:8080/products/e7fd161d-fb50-43fe-98c3-96e4b3b3329d
 ```
 
-Feel free to explore and modify the application as you learn more about Go and MongoDB!
